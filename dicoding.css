@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    height: 80px;
+    box-shadow: 0 0 3px 3px blue;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  nav li {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px;
+    text-align: center;
+    margin:30px;
+
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.logo img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card {
+    display: inline;
+    border: solid 2px white;
+    border-radius: 5px;
+   background-color: wheat
+}
+
+aside {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+article{
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 7px;
+    margin-right: 7px;
+}
+
+.Arm {
+    display: flex;
+}
+
+.arm-p {
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+aside img {
+    width: 300px;
+    height: 300px;
+}
+
+.Chest {
+    display: flex;
+    text-align: center;
+    margin-left: 660px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+h2{
+    display: flex;
+   justify-content: center;
+}
+
+.foto img {
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-bottom: 40px;
+}
+ 
+@media only screen and (max-width: 768px) {
+  header {
+   background-color: black;
+  }
+ 
+  nav li {
+   color: black;
+  }
+ 
+  .card {
+   background-color: wheat;
+   color: black;
+   padding-left: 5px;
+  margin-right: 20px;
+  }
+   
+  aside img {
+   width: 0px;
+   height: 0px;
+  }
+  pre {
+   width: 400px;
+   border:black;
+   white-space: pre-wrap;
+         word-wrap: break-word;
+     }
+ 
+     .Arm {
+        flex-direction: column;
+     }
+ 
+     .Chest img {
+       width: 0px;
+       height: 0px;
+     }
+     .foto {
+      text-align: center;
+     }
+  }
+
+  @media only screen and (max-width: 900px) {
+    
+  }
